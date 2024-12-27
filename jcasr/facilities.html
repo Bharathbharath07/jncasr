@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Technology Unit</title>
+    <style>
+        :root {
+            --primary-color: #1e1e2f;
+            --secondary-color: #28293d;
+            --accent-color: #0078d7;
+            --text-color: #ffffff;
+            --hover-color: #4a4a5d;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+        }
+
+        header {
+            height: 100px;
+
+            color: var(--text-color);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        header img {
+
+            margin-left: 25%;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            height: 130px;
+            border-radius: 15px;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: wheat;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: var(--hover-color);
+        }
+
+        .banner {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--secondary-color);
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .banner img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+
+            padding: 10px 0;
+            border-top: 2px solid var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .tabs a {
+            color: rgb(186, 170, 170);
+            padding: 10px 20px;
+            text-decoration: none;
+
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .tabs a:hover {
+            color: rgb(186, 170, 170);
+            background-color: var(--hover-color);
+            color: var(--text-color);
+        }
+
+        .container {
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .content h1 {
+            text-align: center;
+            color: var(wheat);
+        }
+
+        .content p {
+            margin-left: 5%;
+            text-align: justify;
+        }
+
+        .pics {
+            display: flex;
+            margin-top: 10%;
+            width: 100%;
+            overflow: hidden;
+            
+        }
+
+        .pics img {
+            padding: 20px;
+            height: 300px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="jncasr_banner_0.png" alt="Logo">
+        <h1>जवाहरलाल नेहरू उन्नत वैज्ञानिक अनुसंधान केंद्र</h1>
+
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Academics</a>
+        <a href="#">Research</a>
+        <a href="#">Outreach</a>
+    </nav>
+
+    <div class="banner">
+
+        <img src="https://www.jncasr.ac.in/sites/default/files/inline-images/Eduation%20Technology%20Unit%20_0.gif"
+            alt="Education Technology Unit">
+    </div>
+
+    <div class="tabs">
+        <a href="1.html">Home</a>
+        <a href="people1.html">People</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="outreach.html">Outreach Activities</a>
+        <a href="#">Learning Material</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1>facilities</h1>
+            <p>Computer facilities are available for creating graphics/images, animations, voice recordings, and
+                compressing
+                and converting movie files for integration into multimedia projects.</p>
+            <p>
+                All development work, including scripting, incorporating graphics, movies, and sound elements into
+                multimedia formats, is done in-house.</p>
+            <p>
+                We offer extensive Desktop Publishing (DTP) services to produce print-ready materials for books,
+                brochures,
+                and other promotional content—all completed in-house.</p>
+            <p>
+                Our chemistry laboratory is equipped to conduct experiments using low-cost college chemistry kits.
+            </p>
+            <p>
+                SOP-POCE's Chemistry laboratory is designed to accommodate 24-25 students for general chemistry
+                experiments
+                in a single session.</p>
+            <p>
+                Viewing Room: This space is used for viewing multimedia presentations/CD-ROM titles developed by ETU,
+                video
+                lectures by Professor CNR Rao, and other public lectures</p>
+            <p>
+                Professor CNR Rao Archives: Honoris Causa Doctorate degrees awarded to Professor CNR Rao, along with
+                Medals,
+                Awards, and other honors from national and international universities, are displayed in the Archives.
+            </p>
+            <p>
+                The Chemistry of Materials Exposition showcases Panels, Books, and Models of simple molecules and
+                complex
+                structures.</p>
+            <p>The Madan Mohan Malaviya Amphitheatre is located in the Hall of Science building.</p>
+
+        </div>
+        <div class="pics">
+            <div class="carousel">
+                <div class="card card1"><img src="3.png" alt=""></div>
+                <div class="card card2"><img src="4.png" alt=""></div>
+                
+            </div>
+        </div>/
+    </div>
+</body>
+
+</html>

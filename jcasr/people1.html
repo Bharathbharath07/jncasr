@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Technology Unit</title>
+    <style>
+        :root {
+            --primary-color: #1e1e2f;
+            --secondary-color: #28293d;
+            --accent-color: #0078d7;
+            --text-color: #ffffff;
+            --hover-color: #4a4a5d;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+        }
+
+        header {
+            height: 100px;
+            
+            color: var(--text-color);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        header img {
+            
+            margin-left: 25%;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            height: 130px;
+            border-radius: 15px;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: wheat;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: var(--hover-color);
+        }
+
+        .banner {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--secondary-color);
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .banner img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            
+            padding: 10px 0;
+            border-top: 2px solid var(--accent-color);
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .tabs a {
+            color:rgb(186, 170, 170);
+            padding: 10px 20px;
+            text-decoration: none;
+            
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .tabs a:hover {
+            color:rgb(186, 170, 170);
+            background-color: var(--hover-color);
+            color: var(--text-color);
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h1 {
+            text-align: center;
+            color: var(wheat);
+        }
+
+        .content table {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+        }
+
+        .content table th,
+        .content table td {
+            padding: 10px;
+            
+            text-align: left;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="jncasr_banner_0.png" alt="Logo">
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Academics</a>
+        <a href="#">Research</a>
+        <a href="#">Outreach</a>
+    </nav>
+
+    <div class="banner">
+        <img src="https://www.jncasr.ac.in/sites/default/files/inline-images/Eduation%20Technology%20Unit%20_0.gif"
+            alt="Education Technology Unit">
+    </div>
+
+    <div class="tabs">
+        <a href="1.html">Home</a>
+        <a href="people1.html">People</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="outreach.html">Outreach Activities</a>
+        <a href="#">Learning Material</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="content">
+        <h1>People</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Prof. Sheeba Vasu</td>
+                    <td>Chair, ETU</td>
+                </tr>
+                <tr>
+                    <td>Mrs. Indumati Rao</td>
+                    <td>Honorary Co-ordinator, ETU, Multimedia Group</td>
+                </tr>
+                <tr>
+                    <td>Mr. Vinayak Pattar</td>
+                    <td>Assistant Co-ordinator</td>
+                </tr>
+                <tr>
+                    <td>Mr. Sanjay S.R.Rao</td>
+                    <td>Honorary Assistant, ETU, Multimedia Group</td>
+                </tr>
+                <tr>
+                    <td>Prof. T. Govindaraju</td>
+                    <td>Former Chair</td>
+                </tr>
+                <tr>
+                    <td>Prof. V. Krishnan</td>
+                    <td>Former Chair</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
